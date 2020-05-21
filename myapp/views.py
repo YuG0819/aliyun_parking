@@ -27,8 +27,9 @@ def polls(request):
     # return JsonResponse(result)
 
 def ali_response(request):
-    accessKeyId = 'LTAIdIouq41QQ3kA'
-    accessKeySecret = 'OAC2Rx45QQCPryUsDP1jiVfUc58E7l'
+#your accessKeyId,KeySecret
+    accessKeyId = ''
+    accessKeySecret = ''
     client = AcsClient(accessKeyId, accessKeySecret, 'cn-shanghai')
 
     req = QueryDevicePropertyStatusRequest()
